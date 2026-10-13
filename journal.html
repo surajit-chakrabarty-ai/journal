@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <script>try{var t=localStorage.getItem("theme");if(t!=="light"&&t!=="dark")t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%278%27 fill=%27%23b4441c%27/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&display=swap">
+  <link rel="stylesheet" href="assets/style.css?v=11">
+  <script defer src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <title>Journal — Research Journal</title>
+  <meta name="description" content="Working notes, experiments, and research write-ups.">
+</head>
+<body data-page="journal">
+  <div class="wrap">
+    <nav class="top">
+      <a class="mark" href="./">chakrsur<span>.ai</span></a>
+      <div class="nav-links">
+        <a href="./">about</a>
+        <a href="journal.html" aria-current="page">journal</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
+      </div>
+    </nav>
+    <main>
+      <header class="page-head reveal">
+        <p class="eyebrow">Index · <span id="count"></span></p>
+        <h1>The Journal<span class="dot">.</span></h1>
+        <p class="lede">Working notes, half-formed ideas, experiment logs and finished write-ups — published as they happen.</p>
+      </header>
+      <section class="series-wrap reveal" id="series" hidden>
+        <h2 class="label"><b>∑</b>Series</h2>
+        <div class="series-grid" id="series-grid"></div>
+      </section>
+      <div class="journal-bar reveal">
+        <div class="filters" id="filters" role="toolbar" aria-label="Filter entries"></div>
+        <div class="view-toggle" role="group" aria-label="View">
+          <button type="button" data-view="timeline">Timeline</button>
+          <button type="button" data-view="list">List</button>
+        </div>
+      </div>
+      <div class="reveal" id="list"></div>
+    </main>
+    <footer class="colophon">
+      <span>© <span id="year"></span> · Research Journal</span>
+      <span>Set in Instrument Serif, Newsreader &amp; Plex Mono · Hosted on GitHub Pages</span>
+    </footer>
+  </div>
+  <script defer src="assets/app.js?v=11"></script>
+</body>
+</html>

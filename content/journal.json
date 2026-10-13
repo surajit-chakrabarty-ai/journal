@@ -1,0 +1,26 @@
+{
+  "_help": "Per-entry overrides and series. Keys under \"entries\" are file names without the extension. Any field here (date, tags, title, summary) wins over the post itself, so you can keep your originals in ~/Documents/Blogs untouched. Dates below are placeholders, so set them to the real publish dates.",
+  "series": [
+    {
+      "slug": "inference-engineering",
+      "title": "Inference Engineering",
+      "description": "A four-part deep dive into serving large language models: from the token-by-token bottleneck, through batching and distributed serving, to sizing a GPU fleet.",
+      "entries": [
+        "llm-inference-ep1-the-token-factory",
+        "llm-inference-ep2-the-batch-whisperer",
+        "llm-inference-ep3-the-distributed-orchestra",
+        "llm-inference-ep4-the-capacity-planner"
+      ]
+    }
+  ],
+  "entries": {
+    "embedding-limits-blog": { "date": "2026-07-14", "tags": ["retrieval", "theory"] },
+    "gpu-kernels-deep-dive": { "date": "2026-08-03", "tags": ["systems", "GPUs"] },
+    "llm-evaluation-likert-scale": { "date": "2026-08-24", "tags": ["evaluation"] },
+    "agentic-architectures-deep-dive": { "date": "2026-09-08", "tags": ["agents"] },
+    "llm-inference-ep1-the-token-factory": { "date": "2026-09-22", "tags": ["inference", "systems"] },
+    "llm-inference-ep2-the-batch-whisperer": { "date": "2026-09-29", "tags": ["inference", "systems"] },
+    "llm-inference-ep3-the-distributed-orchestra": { "date": "2026-10-06", "tags": ["inference", "systems"] },
+    "llm-inference-ep4-the-capacity-planner": { "date": "2026-10-13", "tags": ["inference", "GPUs"] }
+  }
+}

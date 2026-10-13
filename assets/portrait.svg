@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300">
+  <!-- Placeholder portrait. Replace with your own photo (e.g. assets/me.jpg) and update "photo" in content/profile.json -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ebe2d2"/>
+      <stop offset="1" stop-color="#d6c5a9"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="300" fill="url(#bg)"/>
+  <circle cx="120" cy="150" r="96" fill="none" stroke="#b4441c" stroke-opacity=".18" stroke-width="1"/>
+  <path d="M18 300 C 26 242, 68 222, 120 220 C 172 222, 214 242, 222 300 Z" fill="#2b2620"/>
+  <path d="M100 186 L100 222 Q120 238 140 222 L140 186 Z" fill="#c09370"/>
+  <path d="M94 222 L120 256 L146 222" fill="none" stroke="#efe7d9" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="73" cy="148" rx="7" ry="12" fill="#c09370"/>
+  <ellipse cx="167" cy="148" rx="7" ry="12" fill="#c09370"/>
+  <ellipse cx="120" cy="142" rx="46" ry="56" fill="#d1a682"/>
+  <path d="M71 142 C 62 92, 92 66, 124 68 C 160 70, 180 98, 169 142 C 166 116, 152 102, 128 100 C 104 98, 84 108, 71 142 Z" fill="#1f1a16"/>
+  <path d="M92 127 Q102 122 112 126 M128 126 Q138 122 148 127" stroke="#1f1a16" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+  <g fill="none" stroke="#1f1a16" stroke-width="2.2">
+    <rect x="89" y="133" width="25" height="19" rx="7"/>
+    <rect x="126" y="133" width="25" height="19" rx="7"/>
+    <path d="M114 140 Q120 136 126 140"/>
+  </g>
+  <circle cx="102" cy="143" r="2.3" fill="#1f1a16"/>
+  <circle cx="138" cy="143" r="2.3" fill="#1f1a16"/>
+  <path d="M120 150 Q116 164 122 167" stroke="#a5795a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M108 179 Q120 187 132 179" stroke="#8a4a3a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+</svg>

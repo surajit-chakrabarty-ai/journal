@@ -1,0 +1,152 @@
+{
+  "generated": "2026-10-13T19:33:32.223Z",
+  "series": [
+    {
+      "slug": "inference-engineering",
+      "title": "Inference Engineering",
+      "description": "A four-part deep dive into serving large language models: from the token-by-token bottleneck, through batching and distributed serving, to sizing a GPU fleet.",
+      "entries": [
+        "llm-inference-ep1-the-token-factory",
+        "llm-inference-ep2-the-batch-whisperer",
+        "llm-inference-ep3-the-distributed-orchestra",
+        "llm-inference-ep4-the-capacity-planner"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "slug": "llm-inference-ep4-the-capacity-planner",
+      "file": "llm-inference-ep4-the-capacity-planner.md",
+      "type": "md",
+      "title": "Episode 4: The Capacity Planner",
+      "date": "2026-10-13",
+      "tags": [
+        "inference",
+        "GPUs"
+      ],
+      "summary": "Before you spin up a single GPU, you need to answer: \"How many GPUs do I actually need?\" This episode teaches you to estimate capacity from first principles — starting with…",
+      "words": 5323,
+      "no": 8,
+      "series": {
+        "slug": "inference-engineering",
+        "title": "Inference Engineering",
+        "part": 4,
+        "of": 4
+      }
+    },
+    {
+      "slug": "llm-inference-ep3-the-distributed-orchestra",
+      "file": "llm-inference-ep3-the-distributed-orchestra.md",
+      "type": "md",
+      "title": "LLM Inference Deep Dive: Episode 3 — Production-Grade Serving",
+      "date": "2026-10-06",
+      "tags": [
+        "inference",
+        "systems"
+      ],
+      "summary": "Moving from a single vLLM instance to a production fleet requires understanding speculative decoding, model parallelism, disaggregated architectures, and the serving…",
+      "words": 2560,
+      "no": 7,
+      "series": {
+        "slug": "inference-engineering",
+        "title": "Inference Engineering",
+        "part": 3,
+        "of": 4
+      }
+    },
+    {
+      "slug": "llm-inference-ep2-the-batch-whisperer",
+      "file": "llm-inference-ep2-the-batch-whisperer.md",
+      "type": "md",
+      "title": "LLM Inference Deep Dive: Episode 2 — The Optimization Playbook",
+      "date": "2026-09-29",
+      "tags": [
+        "inference",
+        "systems"
+      ],
+      "summary": "This episode covers the key techniques that transform LLM serving from \"expensive and slow\" to \"efficient at scale\" — continuous batching eliminates padding waste,…",
+      "words": 2208,
+      "no": 6,
+      "series": {
+        "slug": "inference-engineering",
+        "title": "Inference Engineering",
+        "part": 2,
+        "of": 4
+      }
+    },
+    {
+      "slug": "llm-inference-ep1-the-token-factory",
+      "file": "llm-inference-ep1-the-token-factory.md",
+      "type": "md",
+      "title": "LLM Inference Deep Dive: Episode 1 — The Inference Bottleneck",
+      "date": "2026-09-22",
+      "tags": [
+        "inference",
+        "systems"
+      ],
+      "summary": "LLM inference isn't just \"run the model\" — it's a complex dance between compute, memory bandwidth, and latency constraints. This episode builds the mental model you need to…",
+      "words": 1611,
+      "no": 5,
+      "series": {
+        "slug": "inference-engineering",
+        "title": "Inference Engineering",
+        "part": 1,
+        "of": 4
+      }
+    },
+    {
+      "slug": "agentic-architectures-deep-dive",
+      "file": "agentic-architectures-deep-dive.md",
+      "type": "md",
+      "title": "The Architecture of Minds: A Deep Dive into Multi-Agent AI Systems",
+      "date": "2026-09-08",
+      "tags": [
+        "agents"
+      ],
+      "summary": "It's 2026, and the question is no longer \"Can AI think?\" but \"How should AI systems think together?\"",
+      "words": 4125,
+      "no": 4
+    },
+    {
+      "slug": "llm-evaluation-likert-scale",
+      "file": "llm-evaluation-likert-scale.md",
+      "type": "md",
+      "title": "Cracking the Code on LLM Evaluation: Benchmarking Judges with Likert Scales",
+      "date": "2026-08-24",
+      "tags": [
+        "evaluation"
+      ],
+      "summary": "In the era of production AI, evaluating complex, ambiguous text is one of the hardest challenges engineering teams face. Whether you're analyzing a customer service bot's…",
+      "words": 2863,
+      "no": 3
+    },
+    {
+      "slug": "gpu-kernels-deep-dive",
+      "file": "gpu-kernels-deep-dive.md",
+      "type": "md",
+      "title": "The GPU Kernel Zoo: A Deep Dive into the Engines Powering Modern AI",
+      "date": "2026-08-03",
+      "tags": [
+        "systems",
+        "GPUs"
+      ],
+      "summary": "Every time you run model.forward(), thousands of specialized GPU kernels spring into action—each one a carefully crafted piece of code optimized for a specific operation. This…",
+      "words": 2643,
+      "no": 2
+    },
+    {
+      "slug": "embedding-limits-blog",
+      "file": "embedding-limits-blog.md",
+      "type": "md",
+      "title": "The Geometry of Failure: Why Your Embedding Model Will Never Be Good Enough",
+      "date": "2026-07-14",
+      "tags": [
+        "retrieval",
+        "theory"
+      ],
+      "summary": "A new ICLR 2026 paper proves mathematically that single-vector embeddings have a fundamental ceiling—no matter how much data you throw at them or how big your model gets, there…",
+      "words": 1824,
+      "no": 1
+    }
+  ]
+}

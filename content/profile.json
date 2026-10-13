@@ -1,0 +1,72 @@
+{
+  "name": "Surajit Chakrabarty",
+  "role": "Building efficient context for Machine Learning & Systems",
+  "photo": "assets/me.jpg",
+  "bio": [
+    "I study how large models reason, fail, and can be made more *reliable* — sitting somewhere between machine learning research and the systems that run it.",
+    "This site is my open notebook: experiment logs, reading notes, and write-ups, published as I go."
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/surajit-chakrabarty-ai"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:chakrsur@gmail.com"
+    }
+  ],
+  "notes": [
+    [
+      "Based in",
+      "Bangalore, India"
+    ],
+    [
+      "Focus",
+      "LLM Reasoning · Inference Engineering"
+    ],
+    [
+      "Open to",
+      "Collaborations"
+    ]
+  ],
+  "projects": [
+    {
+      "title": "Very Small Language Models for Indic Languages",
+      "status": "active",
+      "summary": "Building compact language models for Indian languages — exploring tokenisation for Indic scripts, data curation for low-resource languages, and how much capability fits into a model small enough to run on-device.",
+      "tags": [
+        "small LMs",
+        "Indic NLP",
+        "efficiency"
+      ],
+      "since": "2026"
+    },
+    {
+      "title": "System One Decision Models",
+      "status": "active",
+      "summary": "Fast, intuitive decision models — systems that act in a single pass, without step-by-step deliberation — and the question of when such “System 1” decisions can be trusted.",
+      "tags": [
+        "decision-making",
+        "reasoning"
+      ],
+      "since": "2026"
+    }
+  ],
+  "comments": {
+    "_help": "Fill these in from https://giscus.app (see README → Comments & upvotes). Leave repoId empty to hide comments.",
+    "repo": "Surajit-Chakrabarty-ai/surajit-chakrabarty-ai.github.io",
+    "repoId": "",
+    "category": "Announcements",
+    "categoryId": ""
+  },
+  "analytics": {
+    "_help": "Create a free site at https://www.goatcounter.com (see README → Page views). Put its code here, e.g. \"chakrsur\" for chakrsur.goatcounter.com. Leave empty to disable.",
+    "goatcounter": "",
+    "showViews": true
+  }
+}

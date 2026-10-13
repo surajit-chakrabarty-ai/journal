@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <script>try{var t=localStorage.getItem("theme");if(t!=="light"&&t!=="dark")t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%278%27 fill=%27%23b4441c%27/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&display=swap">
+  <link rel="stylesheet" href="assets/style.css?v=11">
+  <script defer src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <title>Entry — Research Journal</title>
+</head>
+<body data-page="entry">
+  <div class="progress" id="progress"></div>
+  <div class="wrap">
+    <nav class="top">
+      <a class="mark" href="./">chakrsur<span>.ai</span></a>
+      <div class="nav-links">
+        <a href="./">about</a>
+        <a href="journal.html" aria-current="page">journal</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
+      </div>
+    </nav>
+    <main>
+      <article class="entry reveal">
+        <header>
+          <p class="eyebrow" id="e-no">&nbsp;</p>
+          <h1 id="e-title">&nbsp;</h1>
+          <p class="meta" id="e-meta"></p>
+          <aside class="series-box" id="series-box" hidden></aside>
+        </header>
+        <div class="prose" id="e-body"></div>
+        <nav class="pager" id="pager"></nav>
+      </article>
+
+      <section class="discussion reveal" id="discussion" hidden>
+        <div class="disc-head">
+          <h2 class="label"><b>¶</b>Discussion</h2>
+          <button class="disc-toggle" id="disc-toggle" type="button" aria-expanded="true" aria-controls="disc-body">
+            <span class="disc-caret" aria-hidden="true">▾</span> <span id="disc-toggle-text">Collapse all</span>
+          </button>
+        </div>
+        <p class="disc-hint">▲ Upvote the entry or any comment with a 👍 reaction · reply in threads · sign in with GitHub to join in.</p>
+        <div class="disc-body" id="disc-body"><div class="disc-inner"><div class="giscus"></div></div></div>
+      </section>
+    </main>
+    <footer class="colophon">
+      <span>© <span id="year"></span> · Research Journal</span>
+      <span>Set in Instrument Serif, Newsreader &amp; Plex Mono · Hosted on GitHub Pages</span>
+    </footer>
+  </div>
+  <script defer src="assets/app.js?v=11"></script>
+</body>
+</html>
